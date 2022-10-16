@@ -1,1 +1,1 @@
-python run_ner.py --output_dir ./models/medicalBert-v1 --model_name_or_path  ./umlsbert --labels processed/label.txt --data_dir  processed/ --do_train --num_train_epochs 1 --per_device_train_batch_size 8  --learning_rate 1e-4  --do_predict --do_eval --overwrite_output_dir
+python run_ner.py --output_dir ./models/medicalBert-v1 --model_name_or_path  ./umlsbert --labels processed/label.txt --data_dir  processed/ --do_train --num_train_epochs 1 --per_device_train_batch_size 32  --learning_rate 1e-4  --do_predict --do_eval --overwrite_output_dir
