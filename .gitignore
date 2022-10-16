@@ -1,0 +1,10 @@
+processed/
+models/
+testing-PHI-Gold-fixed/
+testing-PHI-noTags/
+training-PHI-Gold-Set1/
+training-PHI-Gold-Set2/
+umlsbert/
+
+*.pyc
+umlsbert.tar.xz
